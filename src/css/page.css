@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+/*
+  color: #1F2532;
+*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  margin: auto;
+  overflow-x: hidden;
+  color: #ffffff;
+  background-color: #1F2532;
+}
+
+.header .img{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+#burguer {
+ 
+   cursor: pointer;
+    color: white;
+    display: block;
+    text-align: end;
+
+    padding: 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+
+  font-weight: 800;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+
+
+    color: white;
+}
+
+
+menu > ul > li > a:hover {
+  transition: .2s;
+  border-radius: 20px;
+    background-color: #0071E3;
+}
+
+.button{
+  border-radius: 10px;
+  background-color: #0071E3;
+}
+/* ECHO DOT*/
+.Echo {
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  display: flex;
+}
+
+
+.dot h1{
+  font-family: 'Nunito';
+  font-size: 70px;
+}
+.dot span{
+  color: #05A9D0;
+}
+.dot p{
+  font-size: 25px;
+}
+
+
+.conferir{
+  margin-left: -2px;
+  margin-top: 20px;
+}
+
+
+.coluna{
+  width: 200px;
+}
+
+.coluna img{
+  width: 700px;
+}
+
+.play{
+  margin-top: 20px;
+  
+  display: flex;
+
+}
+
+.play img{
+  width: 40px;
+  margin-left: 20px;
+}
+.button2{
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #0071E3;
+}
+
+/* Novo Echo*/
+
+.novo{
+  border-radius: 30px;
+  margin: auto;
+  background: radial-gradient(circle,rgba(14, 41, 68, 1), rgba(20, 24, 34, 1));
+  width: 90%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textEcho{
+  margin-left: 10px;
+}
+
+.textEcho, .texts{
+  margin: 20px;
+}
+
+.texts p{
+  font-size: 15px;
+}
+
+.texts{
+ margin-left: 90px;
+  justify-content: flex-end ;
+  display: flex;
+}
+
+.moderno, .tocar{
+  margin: 30px;
+}
+
+/* BIG IMAGE*/
+
+.bigimage{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigimage img{
+  cursor: pointer;
+  transition: 1s;
+  width: 80%;
+}
+
+.bigimage img:hover{
+  transform: translateY(-20px);
+}
+
+/* EMPRESAS */
+.empresas{
+  padding: 30px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Amazon*/
+.amazon img{
+  cursor: pointer;
+  width: 150px;
+  transition: 1s;
+}
+.amazon img:hover{
+  transform: translateX(-25px);
+}
+
+/* PPLE*/ 
+.apple img{
+  cursor: pointer;
+  width: 100px;
+  transition: 1s;
+}
+.apple img:hover{
+  transition: 1.2s;
+  transform: translateX(-25px);
+}
+
+/* Spotify */
+.spotify img{
+  cursor: pointer;
+  width: 100px;
+  transition: 1s;
+}
+
+.spotify img:hover{
+  transition: 1.2s;
+  transform: translateX(-25px);
+}
+
+/* DEEZER */
+.deezer img{
+  cursor: pointer;
+  width: 100px;
+  transition: 1s;
+}
+.deezer img:hover{
+  transition: 1.2s;
+  transform: translateX(-25px);
+}
+
+/* TUNEIN  */
+.tunein img {
+  cursor: pointer;
+  width: 100px;
+  transition: 1s;
+}
+
+.tunein img:hover{
+  transition: 1.2s;
+  transform: translateX(-25px);
+}
+
+/* EXPERIMENTE POR 3O DIAS*/
+
+.experimente{
+  margin: auto;
+  margin-bottom: 30px;
+  background: radial-gradient(rgba(2, 78, 130, 1), rgba(20, 24, 30, 1) ) 30%;
+  width: 70%;
+  border-image: linear-gradient(to right,rgba(0, 113, 227, 1), rgba(11, 252, 250, 1));
+  border-image-slice: 1;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.dias{
+  padding: 70px;
+}
+.dias span{
+  color: #05A9D0;
+}
+
+.dias p{
+  margin-bottom: 20px;
+  color: #0BFCFA;
+}
+
+.buttonCenter{
+  display: flex;
+  justify-content: center;
+   
+ }
+
+.button3{
+  margin: auto;
+  color: #fff;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #0071E3;
+}
+
+
+/* Descubra o que a Alexa pode fazer*/
+.descubra {
+  height: 100%;
+  background-color: #141822;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.descubra h4{
+  color: #0BFCFA;
+}
+
+.alexa h1{
+  margin-top: 40px;
+ font-size: 25px;
+  margin-bottom: 30px;
+ 
+}
+
+
+
+
+
+.alexa{
+ margin-left: 70px;
+}
+
+.liga2{
+  margin-left: 70px;
+}
+
+
+.buttonCenter{
+  margin-top: 30px;
+  margin-bottom: 80px;
+ justify-content: flex-start;
+}
+.buttonCenter img{
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.button4{
+  padding: 10px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: #fff;
+  border-image: linear-gradient(to right,rgba(0, 113, 227, 1), rgba(11, 252, 250, 1));
+  border-image-slice: 1;
+  border-style: solid;
+}
+.image{
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.image img{
+  
+  margin-top: 30px;
+  transition: 1s;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 80%;
+
+}
+
+.image img:hover{
+  transform: translateY(-29px);
+}
+
+/* DETALHES */
+
+.detalhes{
+  margin-top: 100px;
+}
+
+.textDetalhes{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.textDetalhes h1{
+  margin-bottom: 70px;
+}
+
+.luz{
+  margin-top: 70px;
+  display: block;
+}
+
+
+.textLuz {
+  
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.textLuz h2{
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #0BFCFA;;
+}
+.buttonCenter2{
+  margin-bottom: 50px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.button5{
+  color: #fff;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #0071E3;
+}

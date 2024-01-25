@@ -1,0 +1,317 @@
+@charset "UTF-8";
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .dot{
+        text-align: center;
+    }
+    .coluna{
+        width: 100%;
+    }
+    .coluna img{
+        width: 100%;
+    }
+    .Echo {
+        display: block;
+    }
+    .play{
+        justify-content: center;
+    }
+
+    /* CONHEÇA O NOVO ECHO*/
+
+    .novo{
+
+        margin-bottom: 30px;
+        display: block;
+        height: 500px;
+    }
+
+    .textEcho{
+        text-align: center;
+      }
+    
+
+    .texts{ 
+        margin-bottom: 30px;
+        margin-left: 3px;
+         justify-content: flex-end ;
+         display: block;
+    }
+
+    /* EMPRESAS */
+    
+    .empresas{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: block;
+    }
+
+    .amazon, .apple, .spotify, .deezer, .tunein{
+        justify-content: center;
+        display: flex;
+         width: 100%;
+        margin: 30px;
+    }
+    .amazon img{
+        width: 30%;
+        transition: 1s;
+      }
+      .amazon img:hover{
+        transform: translateX(-25px);
+      }
+      
+      /* PPLE*/ 
+      .apple img{
+        width: 30%;
+        transition: 1s;
+      }
+      
+      
+      /* Spotify */
+      .spotify img{
+        width: 30%;
+        transition: 1s;
+      }
+      
+      
+      
+      /* DEEZER */
+      .deezer img{
+        width: 30%;
+        transition: 1s;
+      }
+      
+      
+      /* TUNEIN  */
+      .tunein img {
+        width: 30%;
+        transition: 1s;
+      }
+      
+    .alexa h1{
+        text-align: center;
+    }
+
+    /* DETALHES TÉCNICOS*/
+    .textDetalhes img{
+        width: 90%;
+    }
+
+    .luz{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+
+      .imageDetalhes img{
+        margin-left: 20px;
+      }
+      
+
+}
+
+  
+
+  
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    /* Menu */
+
+    menu > ul > li > a {
+        margin: auto;
+        font-weight: 800;
+          display: block;
+          padding: 10px;
+          text-decoration: none;
+          text-align: center;
+          width: 50%;
+      
+          color: white;
+      }
+
+      /* DOT */
+
+      .dot{
+        text-align: center;
+    }
+
+    .coluna{
+        width: 100%;
+    }
+    
+    
+    .coluna img{
+        width: 100%;
+    }
+
+    .Echo {
+        
+        margin-top: 70px;
+        justify-content: center;
+        display: block;
+    }
+    .dot h1{
+        font-size: 100px;
+    }
+
+    .dot p{
+        font-size: 30px;
+    }
+
+    .play{
+        justify-content: center;
+    }
+
+    /* Conheça o no echo*/
+
+    .novo{
+        margin-bottom: 30px;
+        display: block;
+        height: 100%;
+    }
+
+    .textEcho{
+        margin-top: 30px;
+        text-align: center;
+      }
+    
+
+    .texts{ 
+        
+         justify-content: center ;
+         display: flex;
+    }
+
+    /* EMPRESAS*/
+
+    .empresas{
+        align-items: center;
+        justify-content: center;
+        display: block;
+    }
+
+    .amazon, .apple, .spotify, .deezer, .tunein{
+        justify-content: center;
+        display: flex;
+         width: 100%;
+        margin: 30px;
+    }
+    
+
+    /* Descubra */
+    
+
+    
+    .image img{
+        height: 500px;
+    }
+
+    /* DETALHES TÉCNICOS */
+    .textDetalhes img{
+        width: 100%;
+    }
+    .luz{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+    
+     
+
+
+    
+
+}
+
+@media only screen and (min-width: 800px) and (min-height: 768px){
+    .section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+   
+
+    
+}
+
+
+
+  
+  
+@media screen and (min-width: 1200px) {
+
+    .Echo{
+
+        margin-left: -400px;
+    }
+
+  #burguer {
+   
+      display: none;
+  }
+
+  menu {
+    text-align: end;
+      display: block;
+  }
+
+  
+  menu > ul > li {
+    align-items: center;
+   
+    border-radius: 50px;
+    display: inline-block;
+  }
+
+  
+
+  
+
+  /* EMPRESAS*/
+  .amazon, .apple, .spotify, .deezer, .tunein{
+    cursor: pointer;
+    margin: 30px;
+  }
+
+ /* Descubra*/
+ .descubra{
+    display: flex;
+   }
+
+
+  
+
+   .conteudo{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+   .image{
+   
+    display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   }
+
+   /* DETALHES TÉCNICOS*/
+   .textDetalhes img{
+    width: 70%;
+
+    
+}
+.luz{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+
+
+}
+
