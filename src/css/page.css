@@ -405,3 +405,24 @@ menu > ul > li > a:hover {
   border-radius: 10px;
   background-color: #0071E3;
 }
+
+/* FOOTER */
+
+.footer {
+  background-color: #141822;
+}
+
+.footer2 {
+ 
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer2 h2{
+  margin-top: -50px;
+  margin-bottom: 10px;
+  font-size: 18px;
+} 
+
